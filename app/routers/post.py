@@ -10,7 +10,7 @@ from starlette.status import HTTP_204_NO_CONTENT
 
 router = APIRouter(
     prefix="/posts",
-    tags=["Users"]
+    tags=["Posts"]
 )
 
 
